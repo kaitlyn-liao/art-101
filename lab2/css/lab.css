@@ -1,0 +1,25 @@
+img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 2%;
+    border: black;
+}
+
+div.body {
+    margin: 2%;
+}
+
+div.polaroid {
+    margin: 2%;
+    padding-bottom: 3%;
+    padding-top: 2%;
+    background-color: rgb(245, 245, 245);
+    border-radius: 3%;
+    width: 300px;
+    height: 300px;
+}
+
+body {
+    background-color: rgb(174, 210, 211);
+}

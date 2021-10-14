@@ -1,11 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 - Pseudocode</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
+	<h1>Lab 3 - File Structures and File Transfer</h1>
+	<h2>About this Lab</h2>
+	<p>
+		The goal is to get in the habit of thinking in terms 
+		of pseudocoding before jumping into coding.
+	</p>
 
+	<hr>
+
+	<h2>lab.js Pseudocode Everyday Task</h2>
+	<p>
+		Making Cereal
+		<br>
+		<ol>
+			<li>Get a bowl, milk, and your choice of cereal</li>
+			<li>Open the the cereal box and pour desired amount into the bowl</li>
+			<li>Open milk carton and pour just enough to almost cover the cereal in the bowl</li>
+			<li>Close up the cereal box and milk carton</li>
+			<li>Eat with a spoon</li>
+		</ol>
+	</p>
+	<br>
+	<h2>lab.js Pseudocode Computer Task</h2>
+	<p>
+		Game of Rock, Paper, Scissors 
+		<br>
+		<ol>
+			<li>print the options: rock, paper, scissors</li>
+			<li>accept user input</li> 
+			<li>keep track of player and computer scores</li>
+			<li>have computer randomly pick an option</li>
+			<li>compare player vs. computer choice and determine who won </li>
+			<li>add a point to whomever won </li>
+		</ol>
+		<br><br>
+		Organize To-Do List
+		<br>
+		<ol>
+			<li>accept multiple user input asking for task name and taks due date</li>
+			<li>put list of tasks and due dates into a list </li>
+			<li>reorganize the list by earliest to latest due date</li>
+			<li>print out reordered list for user to see</li>
+		</ol>
+	</p>
+
+	<br>
+	<pre>
+
+
+		// Pseudocoding
+		// Getting in the habit of pseudocoding and commenting code.
+		// @link   https://kaitlyn-liao.github.io/art-101/lab4/index.html
+		// @file   This files defines the MyClass class.
+		// @author Kaitlyn Liao
+		// @since  Oct. 13, 2021
+		
+		// Making Cereal 
+		// 1. Get a bowl, milk, and your choice of cereal 
+		// 2. Open the the cereal box and pour desired amount into the bowl
+		// 3. Open milk carton and pour just enough to almost cover the cereal in the bowl
+		// 4. Close up the cereal box and milk carton
+		// 5. Eat with a spoon
+
+		// Rock, Paper, Scissors
+		// print the options: rock, paper, scissors
+		// player score starts at 0 points 
+		// computer score starts at 0 points 
+		// loop until the player or computer scores 5 points
+		//     save players choice
+		//     randomly pick rock paper scissors and save as computer choice
+		//     compare player and computer choice
+		//     assign point to winner 
+		//     print updated score 
+		// print who won
+
+		// Organize To-Do List 
+		// accept list of tasks and their due dates
+		// create a new empty list to store reorganized list 
+		// remove the first task in user inputted list and put it in our new list
+		// loop through the elements of the new list 
+		//     check if the current element's due date is before or at the same time as the first element in user list
+		//         remove first element of user list and insert it at our current position in the new list 
+		//     if we have reached the end of the new list 
+		//         insert the first element of the user list at the end of the new list 
+		// print the new list of tasks organized by due date
+			
+	</pre>
+	<br><br>
+	<h2>Results</h2>
+	<p>Here are screenshots of my source code</p>
+	<img src="./img/js-file.png"/>
+	<img src="./img/html-file.png"/>
+	<img src="./img/css-file.png"/>
 </body>
 </html>

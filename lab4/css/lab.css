@@ -1,0 +1,15 @@
+body{
+    margin: 2%;
+}
+
+pre {
+    background-color:burlywood;
+}
+
+h2 {
+    color: rgb(173, 144, 105);
+}
+
+img {
+    max-width: 600;
+}

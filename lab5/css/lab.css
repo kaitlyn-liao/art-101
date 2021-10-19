@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(251, 226, 252);
+    margin: 2%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img-right {
+    column-count: 2;
+}
+
+.img-frame {
+    background-color: white;
+    padding: 2%;
+}

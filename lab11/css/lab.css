@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(160, 201, 168);
+    margin: 2%;
+    font-family: monospace;
+}
+
+.block {
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.after-click {
+    /* background-color: #fdf7ed; */
+    background-image: radial-gradient(rgb(198, 160, 201), rgb(160, 176, 201));
+    /* border: solid 1px rgb(163, 142, 142); */
+}

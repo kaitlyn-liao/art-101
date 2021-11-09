@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(160, 201, 168);
+    margin: 2%;
+    font-family: monospace;
+}
+
+img {
+    max-width: 80%;
+}
+
+.img-right {
+    column-count: 2;
+}
+
+.img-frame {
+    background-color: rgba(111, 139, 110, 0.591);
+    padding: 2%;
+}

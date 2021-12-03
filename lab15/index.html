@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Lab 15 - AJAX</title>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/lab.js" defer></script>
+
+</head>
+
+<body>
+	<main >
+		<h1>Lab 15: AJAX</h1>
+		
+		<h2>Challenge</h2>
+		<p>Working with your partner, experiment with jQuery and AJAX.</p>
+		
+		<h2>Problems</h2>
+		<p>
+			I had a lot of problems looking for an api to use. A lot of them
+			limited request rates, costed money, or had CORS security issues.
+			Secondly, I had issues with my functions running all at the same
+			time instead of one after another, so my api get call was finishing 
+			faster than my function used to get the input and modify the 
+			apiEndpoint link. To fix this I made them seperate functions and 
+			rewrote my button event handler to force functions execute in the
+			correct order.
+		</p>
+		
+		<h2>Results</h2>
+		<p>Below are the results of this lab</p>
+		<br>
+
+		<h2>Output</h2>
+		<p>Type a name below to generate some common nicknames</p>
+		<input type="text" id="name">
+		<button id="api-button">DO YOU EVEN API, BRO?</button>
+
+		<div id="output"></div>
+		<br>
+		<nav>
+			<a class="sourcelink" href="js/lab.js" target="source">JavaScript Source</a>
+		</nav>
+	</main>
+</body>
+
+</html>

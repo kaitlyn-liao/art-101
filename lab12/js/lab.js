@@ -5,25 +5,9 @@
 
 // Return Gryffindor, Ravenclaw, Slytherin, Hufflepuff based on mod 4
 function sortingHat(str) {
-  // refactored code
+  // refactored code using array instead of if statements
   var houses = ["Gryffindor", "Ravenclaw", "Slytherin", "Hufflepuff"];
   return houses[str.length %4];
-
-
-  // len = str.length;
-  // mod = len % 4;
-  // if (mod == 0){
-  //   return "Gryffindor";
-  // }
-  // else if(mod == 1) {
-  //   return "Ravenclaw";
-  // }
-  // else if(mod == 2) {
-  //   return "Slytherin";
-  // }
-  // else if(mod == 3) {
-  //   return "Hufflepuff";
-  // }
 }
 
 var myButton = document.getElementById('button');
